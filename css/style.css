@@ -113,3 +113,30 @@ h2{
     display: flex;
     padding-top: 200px;
     justify-content: space-between;
+}
+.contenitore3{
+    padding-top: 200px; 
+    text-align: center;
+}
+h3{
+    color:#23272A;  
+    font-size: 32px;
+}
+.pronto{
+    text-align: center;
+    padding-top: 80px;
+}
+.btn3{
+    width: 350px;
+    background-color:#8EA1E1;
+    border-radius: 28px;
+    padding: 16px 32px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.testo2{
+    margin-top: 60px;
+}
