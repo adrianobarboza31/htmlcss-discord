@@ -10,9 +10,6 @@
 main>section.debug{
     border: 2px solid red;
 }
-header>nav.debug,div.debug{
-    /* border: 2px solid yellow; */
-}
 nav{
     width: 1200px;
     margin: auto;
@@ -22,7 +19,7 @@ nav>img{
   height: 80px;
 }
 header{
-    background-image:url("/img/jumbo.png");
+    background-image:url("../img/jumbo.png");
     background-size: cover;
     height: 620px;
 }
@@ -107,7 +104,12 @@ main{
 h2{
     font-size: 48px;
     color:#23272A;
+    padding-bottom: 24px;
 }
 .div1{
     width: 350px;
 }
+.contenitore2{
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-between;
