@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
 }
-.debug{
+/* .debug{ */
     border: 2px solid black;
     min-height: 100px;
 }
@@ -13,25 +14,26 @@ main>section.debug{
 nav{
     width: 1200px;
     margin: auto;
+    height: 80px;
     
 }
-nav>img{
-  height: 80px;
+.logo{
+    height: 30px;
 }
 header{
     background-image:url("../img/jumbo.png");
     background-size: cover;
     height: 620px;
 }
-li{
+ul.flex-box>li{
     list-style: none;
     color:#FFFFFF;
-    font-size: 20px;
+    font-size: 15px;
 }
 .flex-box{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
 }
 ul.flex-box{
@@ -63,9 +65,7 @@ p{
     font-size: 20px;
     margin-bottom: 15px;
 }
-div>a{
-    width: 250px;
-}
+
 .btnn{
     width: 350px;
     background-color:#23272A;
@@ -113,6 +113,7 @@ h2{
     display: flex;
     padding-top: 200px;
     justify-content: space-between;
+    
 }
 .contenitore3{
     padding-top: 200px; 
@@ -139,4 +140,67 @@ h3{
 }
 .testo2{
     margin-top: 60px;
+    margin-bottom: 150px;
+}
+footer{
+    background-color: #23272A;
+}
+.ft{
+    width: 1100px;
+    margin: auto;
+}
+.flex-boxv{
+    display: flex;
+    flex-direction: column;
+}
+.flex-boxt{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+ul.flex-boxv>li{
+    padding:5px;
+    color: white;
+    list-style: none;
+}
+#colore{
+    color: #7289DA;
+    font-weight: bold;
+}
+.frase{
+    font-size: 40px;
+}
+.ita{
+    height: 15px;
+}
+.white{
+    color: white;
+}
+hr{
+    border-color: #7289DA;
+    width: 1100px;
+    margin: auto;
+}
+.between{
+    padding-top: 40px;
+    width: 1100px;
+    margin: auto;
+    
+}
+.ca{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.ultimo{
+    background-color:#8EA1E1;
+    border-radius: 40px;
+    padding: 7px 16px;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    
 }
