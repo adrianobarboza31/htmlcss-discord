@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  Helvetica, sans-serif;
+    font-family:  Helvetica, Sans-serif ;
 }
 /* .debug{ */
     border: 2px solid black;
@@ -201,6 +201,5 @@ hr{
     text-decoration: none;
     color:white;
     font-size: 14px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
